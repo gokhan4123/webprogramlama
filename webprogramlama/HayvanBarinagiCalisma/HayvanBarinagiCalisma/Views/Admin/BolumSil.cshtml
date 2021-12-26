@@ -1,0 +1,26 @@
+﻿
+@{ ViewData["Title"] = "Bölüm Sil";
+                Layout = "~/Views/Shared/_LayoutAdmin.cshtml"; }
+@model List<Bolum>
+<div class="container mt-5">
+    <h1 style="text-align:center;">Bölüm Sil</h1>
+    <form class="w-75 m-auto" method="post">
+        <div class="form-group">
+            @*<label for="exampleInputEmail1">Cins Adı</label>*@
+            <select class="form-control" name="id">
+                @*asp-for="EmployeeId" asp-items="@(new SelectList(Model.EmployeesList, "Id", "FullName"))"*@
+                <option selected>Bölüm Adını Seçin</option>
+                @foreach (var bolum in Model)
+                {
+    <option value="@bolum.BolumId" for="id">@bolum.BolumAdi</option>}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary float-right">Sil</button>
+    </form>
+
+</div>
+
+<div class="container mt-2">
+    <p class="w-75 text-primary text-center">@ViewBag.Mesaj</p>
+    <p class="w-75 text-danger text-center">@ViewBag.Error</p>
+</div>
