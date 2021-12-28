@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DXSe2MoBC2sphiIPz1DsRGAfOq7h9HG+ajUqR9033XcUvqR7jnNjbUOcUo8kMme+jHIJ5pxRRmZDZdSNEfxEaQ==",
+  "dgSpecHash": "CicyppVHJ6qIfXnVxLLzy8buc+pGq0veHK+Z2Sq8sAXprc9VNXk4cQJvPuDTU2+Y/FtLDXudRaIfQzfjrWJULw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma.csproj",
+  "projectFilePath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\gugras\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
     "D:\\Users\\gugras\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.1\\microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using HayvanBarinagiCalisma.Models;
+using Ciftlik.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace HayvanBarinagiCalisma.Data
+namespace Ciftlik.Data
 {
     public class ApplicationDbContext : IdentityDbContext<CustomUser>
     {

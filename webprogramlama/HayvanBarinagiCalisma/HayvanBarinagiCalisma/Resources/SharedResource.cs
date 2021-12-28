@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HayvanBarinagiCalisma.Resources
+namespace Ciftlik.Resources
 {
     public class SharedResource
     {

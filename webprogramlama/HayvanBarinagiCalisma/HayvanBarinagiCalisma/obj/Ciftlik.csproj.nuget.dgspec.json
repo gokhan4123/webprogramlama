@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\gugras\\Desktop\\prc\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj": {}
+    "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj": {}
   },
   "projects": {
-    "D:\\Users\\gugras\\Desktop\\prc\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj": {
+    "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\gugras\\Desktop\\prc\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
+        "projectUniqueName": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
         "projectName": "Ciftlik",
-        "projectPath": "D:\\Users\\gugras\\Desktop\\prc\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
+        "projectPath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
         "packagesPath": "D:\\Users\\gugras\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\gugras\\Desktop\\prc\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\obj\\",
+        "outputPath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -19,12 +19,18 @@
             <span asp-validation-for="Hayvan.Yasi" class="text-danger"></span>
         </div>
         <div class="form-group">
+            <label asp-for="Hayvan.Fiyat"></label>
+            <input asp-for="Hayvan.Fiyat" class="form-control" />
+            <span asp-validation-for="Hayvan.Fiyat" class="text-danger"></span>
+        </div>
+        <div class="form-group">
             @*asp-for="EmployeeId" asp-items="@(new SelectList(Model.EmployeesList, "Id", "FullName"))"*@
             <select asp-for="Hayvan.CinsId" class="form-control">
                 <option selected>Cins Adını Seçin</option>
                 @foreach (var cins in Model.Cinsler)
                 {
-    <option value="@cins.CinsId" for="id">@cins.CinsAdi</option>}
+    <option value="@cins.CinsId" for="id">@cins.CinsAdi</option>
+}
             </select>
             <span asp-validation-for="Hayvan.Cins.CinsAdi" class="text-danger"></span>
         </div>
@@ -34,7 +40,8 @@
                 <option selected>Cins Adını Seçin</option>
                 @foreach (var tur in Model.Turler)
                 {
-    <option value="@tur.TurId" for="id">@tur.TurAdi</option>}
+    <option value="@tur.TurId" for="id">@tur.TurAdi</option>
+}
             </select>
             <span asp-validation-for="Hayvan.Tur.TurAdi" class="text-danger"></span>
         </div>
@@ -51,7 +58,8 @@
                 <option selected>Bölüm Adını Seçin</option>
                 @foreach (var bolum in Model.Bolumler)
                 {
-    <option value="@bolum.BolumId" for="id">@bolum.BolumAdi</option>}
+    <option value="@bolum.BolumId" for="id">@bolum.BolumAdi</option>
+}
             </select>
             <span asp-validation-for="Hayvan.Bolum.BolumAdi" class="text-danger"></span>
         </div>

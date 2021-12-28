@@ -21,20 +21,20 @@ using Microsoft.AspNetCore.Identity;
 #nullable disable
 #nullable restore
 #line 2 "D:\Users\gugras\Desktop\webprogramlama\HayvanBarinagiCalisma\HayvanBarinagiCalisma\Areas\Identity\Pages\_ViewImports.cshtml"
-using HayvanBarinagiCalisma.Areas.Identity;
+using Ciftlik.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "D:\Users\gugras\Desktop\webprogramlama\HayvanBarinagiCalisma\HayvanBarinagiCalisma\Areas\Identity\Pages\_ViewImports.cshtml"
-using HayvanBarinagiCalisma.Areas.Identity.Pages;
+using Ciftlik.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9746f5960fe6e14c58a6b0318c7c63f38cbeec44", @"/Areas/Identity/Pages/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c2be460b80625fb2a21c6c2412abb3aeba42824d", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5cde7b41bd5257158f243cf302e4046983162019", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Error : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

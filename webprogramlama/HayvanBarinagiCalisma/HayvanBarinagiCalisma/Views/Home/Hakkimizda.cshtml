@@ -1,14 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Hakkımızda";
 }
-@using HayvanBarinagiCalisma.Resources
+@using Ciftlik.Resources
 @inject LocService SharedLocalizer
 @{ 
     ViewData["BizKimiz"] = SharedLocalizer.GetLocalizedHtmlString("BizKimiz");
     ViewData["HakkimizdaIcerik1"] = SharedLocalizer.GetLocalizedHtmlString("HakkimizdaIcerik1");
     ViewData["HakkimizdaIcerik2"] = SharedLocalizer.GetLocalizedHtmlString("HakkimizdaIcerik2");
     ViewData["KayitOl"] = SharedLocalizer.GetLocalizedHtmlString("KayitOl");
-    ViewData["SimdiSahiplen"] = SharedLocalizer.GetLocalizedHtmlString("SimdiSahiplen");
+    ViewData["SimdiSatinAl"] = SharedLocalizer.GetLocalizedHtmlString("SimdiSatinAl");
 }
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<CustomUser> SignInManager
@@ -27,7 +27,7 @@
         }
         else
         {
-            <a class="btn btn-outline-dark btn-lg float-right" asp-controller="Home" asp-action="Sahiplenme" role="button">@ViewData["SimdiSahiplen"]...</a>
+            <a class="btn btn-outline-dark btn-lg float-right" asp-controller="Home" asp-action="SatinAl" role="button">@ViewData["SimdiSatinAl"]...</a>
         }
 
     </p>

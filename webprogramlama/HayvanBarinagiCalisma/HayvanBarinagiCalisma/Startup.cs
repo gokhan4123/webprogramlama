@@ -8,19 +8,19 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using HayvanBarinagiCalisma.Data;
+using Ciftlik.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using HayvanBarinagiCalisma.Models;
+using Ciftlik.Models;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Localization.Routing;
 using Microsoft.Extensions.Options;
-using HayvanBarinagiCalisma.Resources;
+using Ciftlik.Resources;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HayvanBarinagiCalisma
+namespace Ciftlik
 {
     public class Startup
     {

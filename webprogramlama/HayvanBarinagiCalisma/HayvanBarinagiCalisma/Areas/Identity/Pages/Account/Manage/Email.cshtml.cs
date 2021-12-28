@@ -10,9 +10,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using HayvanBarinagiCalisma.Models;
+using Ciftlik.Models;
 
-namespace HayvanBarinagiCalisma.Areas.Identity.Pages.Account.Manage
+namespace Ciftlik.Areas.Identity.Pages.Account.Manage
 {
     public partial class EmailModel : PageModel
     {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HayvanBarinagiCalisma.Models
+namespace Ciftlik.Models
 {
     public class Hayvan
     {
@@ -35,5 +35,6 @@ namespace HayvanBarinagiCalisma.Models
         //Bölüm ile İlişki
         public int? BolumId { get; set; }
         public virtual Bolum Bolum { get; set; }
+        public int?Fiyat { get; set; }
     }
 }

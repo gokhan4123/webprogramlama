@@ -1,6 +1,6 @@
 using System;
 
-namespace HayvanBarinagiCalisma.Models
+namespace Ciftlik.Models
 {
     public class ErrorViewModel
     {

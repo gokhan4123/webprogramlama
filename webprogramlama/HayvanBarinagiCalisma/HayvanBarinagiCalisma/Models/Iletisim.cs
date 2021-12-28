@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HayvanBarinagiCalisma.Models
+namespace Ciftlik.Models
 {
     public class Iletisim
     {

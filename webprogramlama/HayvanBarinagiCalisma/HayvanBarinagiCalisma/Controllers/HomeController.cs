@@ -5,13 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using HayvanBarinagiCalisma.Models;
-using HayvanBarinagiCalisma.Data;
+using Ciftlik.Models;
+using Ciftlik.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Localization;
 
-namespace HayvanBarinagiCalisma.Controllers
+namespace Ciftlik.Controllers
 {
     public class HomeController : Controller
     {
@@ -54,7 +54,7 @@ namespace HayvanBarinagiCalisma.Controllers
             
             return View();
         }
-        public IActionResult Sahiplenme()
+        public IActionResult SatinAl()
         {
             var viewModel = new HayvanlarTurCinsViewModel();
             viewModel.Hayvanlar = _context.Hayvan.Where(x=>x.SahiplenildiMi==false).ToList();
@@ -63,7 +63,7 @@ namespace HayvanBarinagiCalisma.Controllers
             return View(viewModel);
         }
         [Authorize(Roles ="Admin,Uye")]
-        public IActionResult SahiplenmeDetay(int id)
+        public IActionResult SatinAlDetay(int id)
         {
             var hayvan = _context.Hayvan.Find(id);
             var tur = _context.Tur.Where(x => x.TurId == hayvan.TurId).FirstOrDefault();
@@ -73,7 +73,7 @@ namespace HayvanBarinagiCalisma.Controllers
             return View(hayvan);
         }
         [Authorize(Roles = "Admin,Uye")]
-        public IActionResult SahiplenmeGercekleme(int id)
+        public IActionResult SatinAlGercekleme(int id)
         {
             var hayvan = _context.Hayvan.Find(id);
             hayvan.SahiplenildiMi = true;
@@ -82,6 +82,7 @@ namespace HayvanBarinagiCalisma.Controllers
             return View(hayvan);
         }
         public IActionResult TurDetay(int id) {
+            ViewData["Title"] = _context.Tur.Where(x => x.TurId == id).FirstOrDefault().TurAdi;
             var viewModel = new HayvanlarTurCinsViewModel();
             viewModel.Hayvanlar = _context.Hayvan.Where(x => x.SahiplenildiMi == false && x.TurId==id).ToList();
             viewModel.Turler = _context.Tur.ToList();

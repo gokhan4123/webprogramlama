@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HayvanBarinagiCalisma.Data;
-using HayvanBarinagiCalisma.Models;
+using Ciftlik.Data;
+using Ciftlik.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Identity;
 using System.Net.Http.Headers;
 using System.IO;
 
-namespace HayvanBarinagiCalisma.Controllers
+namespace Ciftlik.Controllers
 {
     [Authorize(Roles ="Admin")]
     public class AdminController : Controller
@@ -125,6 +125,7 @@ namespace HayvanBarinagiCalisma.Controllers
                     hay.Cins = _context.Cins.Find(hayvan.CinsId);
                     hay.Tur = _context.Tur.Find(hayvan.TurId);
                     hay.Bolum = _context.Bolum.Find(hayvan.BolumId);
+                    hay.Fiyat = hayvan.Fiyat;
                     _context.Hayvan.Update(hay);
                     _context.SaveChanges();
                     return RedirectToAction("HayvanDuzenle", "Admin");
@@ -141,6 +142,7 @@ namespace HayvanBarinagiCalisma.Controllers
                     hay.Cins = _context.Cins.Find(hayvan.CinsId);
                     hay.Tur = _context.Tur.Find(hayvan.TurId);
                     hay.Bolum = _context.Bolum.Find(hayvan.BolumId);
+                    hay.Fiyat = hayvan.Fiyat;
                     _context.Hayvan.Update(hay);
                     _context.SaveChanges();
                     return RedirectToAction("HayvanDuzenle", "Admin");

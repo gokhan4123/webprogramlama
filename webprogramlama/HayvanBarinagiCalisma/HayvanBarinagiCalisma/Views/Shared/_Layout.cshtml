@@ -1,17 +1,17 @@
-﻿@using HayvanBarinagiCalisma.Resources
+﻿@using Ciftlik.Resources
 @inject LocService SharedLocalizer
 @{
     ViewData["Anasayfa"] = SharedLocalizer.GetLocalizedHtmlString("Anasayfa");
     ViewData["Hakkimizda"] = SharedLocalizer.GetLocalizedHtmlString("Hakkimizda");
     ViewData["Iletisim"] = SharedLocalizer.GetLocalizedHtmlString("Iletisim");
-    ViewData["BolumeYerlestir"] = SharedLocalizer.GetLocalizedHtmlString("BolumeYerlestir");
+    ViewData["SatinAl"] = SharedLocalizer.GetLocalizedHtmlString("SatinAl");
 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Hayvan  Çiftliği</title>
+    <title>@ViewData["Title"] - Hayvan Çiftliği</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-danger border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Hayvan Çiftliği</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ZG KARDEŞ ÇİFTLİĞİ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Hakkimizda">@ViewData["Hakkimizda"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Sahiplenme">@ViewData["BolumeYerlestir"]</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="SatinAl">@ViewData["SatinAl"]</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Iletisim">@ViewData["Iletisim"]</a>
@@ -52,7 +52,7 @@
 
     <footer class="border-top footer text-muted bg-danger">
         <div class="container text-light">
-            &copy; @DateTime.Now.Year - Hayvan Çiftliği - <a asp-area="" asp-controller="Home" asp-action="Hakkimizda">@ViewData["Hakkimizda"]</a>
+            &copy; @DateTime.Now.Year - ZG Çiftliği - <a asp-area="" asp-controller="Home" asp-action="Hakkimizda">@ViewData["Hakkimizda"]</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

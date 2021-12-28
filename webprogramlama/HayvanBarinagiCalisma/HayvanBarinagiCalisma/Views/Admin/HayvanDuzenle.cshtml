@@ -20,7 +20,8 @@
                             <th>Yaşı</th>
                             <th>Cinsiyeti</th>
                             <th>Ek Açıklama</th>
-                            <th>Sahiplenilme Durumu</th>
+                            <th>SatınAlma Durumu</th>
+                            <th>Fiyat</th>
                             <th>İşlem</th>
                         </tr>
                     </thead>
@@ -46,12 +47,15 @@
                             <td>@hayvan.EkBilgiler</td>
                             @if (hayvan.SahiplenildiMi)
                             {
-                                <td>Sahiplenildi</td>
+                                <td>Satılmış</td>
                             }
                             else
                             {
-                                <td>Sahiplenilmedi</td>
+                                <td>Satılmamış</td>
                             }
+                            <td>
+                                @hayvan.Fiyat
+                            </td>
                         <td>
                             <a class="btn btn-danger btn-sm" asp-controller="Admin" asp-action="HayvanSil" asp-route-id="@hayvan.HayvanId">Sil</a>
                             <a class="btn btn-info btn-sm" asp-controller="Admin" asp-action="HayvanUpdate" asp-route-id="@hayvan.HayvanId">Güncelle</a>

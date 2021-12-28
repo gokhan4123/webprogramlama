@@ -10,9 +10,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using HayvanBarinagiCalisma.Models;
+using Ciftlik.Models;
 
-namespace HayvanBarinagiCalisma.Areas.Identity.Pages.Account.Manage
+namespace Ciftlik.Areas.Identity.Pages.Account.Manage
 {
     public class EnableAuthenticatorModel : PageModel
     {
@@ -149,7 +149,7 @@ namespace HayvanBarinagiCalisma.Areas.Identity.Pages.Account.Manage
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("HayvanBarinagiCalisma"),
+                _urlEncoder.Encode("Ciftlik"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

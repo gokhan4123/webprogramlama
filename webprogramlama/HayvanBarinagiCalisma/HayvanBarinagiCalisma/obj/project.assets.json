@@ -8517,9 +8517,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma.csproj",
-      "projectName": "HayvanBarinagiCalisma",
-      "projectPath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma.csproj",
+      "projectUniqueName": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
+      "projectName": "Ciftlik",
+      "projectPath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\Ciftlik.csproj",
       "packagesPath": "D:\\Users\\gugras\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\gugras\\Desktop\\webprogramlama\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\obj\\",
       "projectStyle": "PackageReference",

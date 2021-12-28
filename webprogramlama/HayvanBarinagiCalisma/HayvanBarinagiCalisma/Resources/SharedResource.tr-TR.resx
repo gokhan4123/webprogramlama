@@ -124,11 +124,10 @@
     <value>Anasayfa</value>
   </data>
   <data name="BirinciKutu" xml:space="preserve">
-    <value>Bu Sayfada Neler Yapabilirsin?</value>
+    <value>TANITIM</value>
   </data>
   <data name="BirinciKutuIcerik" xml:space="preserve">
-    <value>Ücretsiz evcil hayvan sahiplendirmelerine göz atabilir ve sahiplenebilirsin.
-                    Aradığın canlıyı bulamadıysan, aradigin hayvanin detaylarini mesaj bırakabilirsin.</value>
+    <value>Yetiştirdiğimiz hayvanları görüp yaş tür cins bilgleri ve fiyatlarına göre kıyaslama yaparak satınalma on isteği oluşturabilirsiniz.</value>
   </data>
   <data name="BizKimiz" xml:space="preserve">
     <value>Biz Kimiz</value>
@@ -155,13 +154,11 @@
     <value>Hakkımızda</value>
   </data>
   <data name="HakkimizdaIcerik1" xml:space="preserve">
-    <value>Öncelikle “Bizler Kimiz?” sorusuna yanıt verelim. Bizler hayvanseverleriz…
-        Biliyoruz ki petlerimiz ve hatta çiçeklerimiz bile bizlerin birer parçasıdır. Onlardan kolay kolay ayrılamayız, onlar olmadan yapamayız. Her zaman gittiğimiz yere götürmek isteriz ve yanımızda olmalarını isteriz. Adeta evlatlarımız gibidir onlar.
-        Fakat bazen ani planlar ve iş hayatı gibi durumlardan dolayı can dostlarımızı yanımızda götüremediğimiz/götüremeyeceğimiz ya da onlarla ilgilenemeyeceğimiz zamanlarımız olur ve onların yanlarında her zaman güveneceğimiz, onlarla ilgilenebilecek birilerinin olması isteriz.
-        İşte bu noktada Emre, Furkan ve Mustafa kafadarlar olarak hayvan sahiplerine destek olmak, minik dostlarımızın mutluluğunu sağlamak adına Hayvan barinagi’nı oluşturduk.</value>
+    <value>Bizler yetiştirmiş olduğumuz hayvan çeşitlerini online satışını gerçekleştiren bir firmayız. Firmamızdaki yetiştirdiğimiz hayvanlar satılacak yaşa gelmede nsatışı kesinlikle yapılmamaktadır.
+	Güvenle satınalmadan önce firmamıza gelip gezebilirsiniz. Hayvanlarımız kendisine uygun bölümlerde saklanmaktadır. Zarar gelebilecek diğer hayvan gruplarıyla aynı bölümde barınmalarına kesinlike imkan verilmemektedir.</value>
   </data>
   <data name="HakkimizdaIcerik2" xml:space="preserve">
-    <value>Siz de sahiplenip aramıza katılmak için şimdi...</value>
+    <value>Siz de satınalıp aramıza katılmak için şimdi...</value>
   </data>
   <data name="Hosgeldin" xml:space="preserve">
     <value>Hoşgeldin</value>
@@ -170,7 +167,7 @@
     <value>VİZYONUMUZ</value>
   </data>
   <data name="ikinciKutuIcerik" xml:space="preserve">
-    <value>Dünyadaki tüm minik dostlarımıza fayda sağlayacak sevgi dolu bir dünya düzeni oluşturmak. Hepimizin mutlu olma hakkı vardır.</value>
+    <value>Yetiştirmiş olduğumuz yüzlerce sayıdaki değişik türden hayvanlara insanların ulaşmasına imkan sağlamaktır. Böylece  çiftlikler gitmeye gerek kalmadan online platform da gezinebilir ve satınalma isteği oluşturabilirsiniz.</value>
   </data>
   <data name="Iletisim" xml:space="preserve">
     <value>İletişim</value>
@@ -184,38 +181,38 @@
   <data name="KayitOl" xml:space="preserve">
     <value>Kayıt Ol</value>
   </data>
-  <data name="Sahiplen" xml:space="preserve">
-    <value>Sahiplen</value>
+  <data name="SatinAl" xml:space="preserve">
+    <value>SatinAl</value>
   </data>
-  <data name="Sahiplenme" xml:space="preserve">
-    <value>Sahiplenme</value>
+  <data name="SatinAlma" xml:space="preserve">
+    <value>SatinAlma</value>
   </data>
-  <data name="SahiplenmeDon" xml:space="preserve">
-    <value>Sahiplenmeye Dön</value>
+  <data name="SatinAlmaDon" xml:space="preserve">
+    <value>SatinAlmaya Dön</value>
   </data>
-  <data name="SahiplenmeGercekleme" xml:space="preserve">
-    <value>En Yakın Zamanda Barınağımıza Gelip Teslim Alabilirsiniz.</value>
+  <data name="SatinAlGercekleme" xml:space="preserve">
+    <value>Firmamıza gelip teslim alabilirsiniz.</value>
   </data>
-  <data name="SimdiSahiplen" xml:space="preserve">
-    <value>Şimdi Sahiplenin</value>
+  <data name="SimdiSatinAl" xml:space="preserve">
+    <value>Şimdi Satın Al</value>
   </data>
   <data name="SliderBir" xml:space="preserve">
-    <value>Sahipleniyoruz</value>
+    <value>.</value>
   </data>
   <data name="SliderBirIcerik" xml:space="preserve">
-    <value>Sokak Hayvanlarına Sahip Çıkıyoruz</value>
+    <value></value>
   </data>
   <data name="SliderIki" xml:space="preserve">
-    <value>Sahiplendiriyoruz</value>
+    <value></value>
   </data>
   <data name="SliderIkiIcerik" xml:space="preserve">
-    <value>Sokak Hayvanlarını Gönüllülere Sahiplendiriyoruz</value>
+    <value>z</value>
   </data>
   <data name="SliderUc" xml:space="preserve">
-    <value>Koruyoruz</value>
+    <value></value>
   </data>
   <data name="SliderUcIcerik" xml:space="preserve">
-    <value>Korumasız Hayvanların Ihtiyaclarını Gideriyoruz</value>
+    <value></value>
   </data>
   <data name="Tebrik" xml:space="preserve">
     <value>Tebrikler</value>
@@ -227,7 +224,7 @@
     <value>MİSYONUMUZ</value>
   </data>
   <data name="UcuncuKutuIcerik" xml:space="preserve">
-    <value>Minik dostlarimizi sevgi dolu, güvenilir sahiplerle bulusturarak mutlu tablolar oluşturmak. Oluşan bu mutlu tablolardan iç huzuru sağlayarak güven dolu bir dünya oluşumuna katkı sağlamak.</value>
+    <value>Çok yakında eklenecek........</value>
   </data>
   <data name="Yas" xml:space="preserve">
     <value>Yaş</value>

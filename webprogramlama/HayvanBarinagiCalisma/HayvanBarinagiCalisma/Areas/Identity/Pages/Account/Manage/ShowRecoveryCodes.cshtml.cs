@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace HayvanBarinagiCalisma.Areas.Identity.Pages.Account.Manage
+namespace Ciftlik.Areas.Identity.Pages.Account.Manage
 {
     public class ShowRecoveryCodesModel : PageModel
     {
